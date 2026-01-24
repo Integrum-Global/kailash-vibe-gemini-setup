@@ -47,7 +47,7 @@ You have access to a comprehensive library of "Skills" (Reference Documentation)
 When you need deep expertise, "adopt" one of these personas by reading their knowledge file in `.gemini/knowledge/`:
 
 ### Analysis & Planning
-- **[ultrathink-analyst](../knowledge/ultrathink-analyst.md)**: Deep failure analysis.
+- **[deep-analyst](../knowledge/deep-analyst.md)**: Deep failure analysis.
 - **[requirements-analyst](../knowledge/requirements-analyst.md)**: Requirements breakdown.
 - **[sdk-navigator](../knowledge/sdk-navigator.md)**: Pattern finding.
 - **[framework-advisor](../knowledge/framework-advisor.md)**: Framework selection.
