@@ -569,7 +569,7 @@ After completing analysis and creating the readiness report:
 ```
 
 The migration-implementation.md guide will take over with:
-1. DEEP ANALYSIS activation for migration
+1. Deep analysis activation for migration
 2. ADR creation for migration decisions
 3. Component-by-component migration with validation
 4. 3-tier test implementation

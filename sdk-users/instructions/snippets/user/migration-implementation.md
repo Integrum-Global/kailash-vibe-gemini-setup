@@ -42,8 +42,8 @@ After loading the essential files, you MUST confirm you understand:
 
 **Search relevant documentation as needed during implementation using MCP tools instead of loading everything upfront.**
 
-### DEEP ANALYSIS CAP ACTIVATION
-Think deeply. Before we begin any migration, you MUST analyze deeply and provide specific answers to these questions:
+### DEEP ANALYSIS ACTIVATION
+Think deeply. Before we begin any migration, you MUST analyze thoroughly and provide specific answers to these questions:
 
 1. **What are the most likely migration failure points for this specific component?**
    - Where might state migration break application continuity?
@@ -439,7 +439,7 @@ Before considering migration complete:
 
 **If you cannot answer "yes" to all questions, continue working until you can.**
 
-## 10. DEEP ANALYSIS CAP CRITIQUE
+## 10. DEEP ANALYSIS CRITIQUE
 
 Think deeply. Review this migration critically:
 
