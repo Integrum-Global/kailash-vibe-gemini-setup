@@ -171,6 +171,38 @@ For detailed framework documentation, see:
 
 ---
 
+## 🎯 Specialized Personas (Knowledge)
+
+When you need deep expertise, "adopt" one of these personas by reading their knowledge file in `.gemini/knowledge/`:
+
+### Analysis & Planning
+- **[deep-analyst](../knowledge/deep-analyst.md)**: Deep failure analysis, complexity assessment.
+- **[requirements-analyst](../knowledge/requirements-analyst.md)**: Requirements breakdown, ADR creation.
+- **[sdk-navigator](../knowledge/sdk-navigator.md)**: Find patterns before coding.
+- **[framework-advisor](../knowledge/framework-advisor.md)**: Choose Core SDK, DataFlow, or Nexus.
+
+### Framework Implementation
+- **[nexus-specialist](../knowledge/nexus-specialist.md)**: Multi-channel platform implementation (API/CLI/MCP).
+- **[dataflow-specialist](../knowledge/dataflow-specialist.md)**: Database operations with auto-generated nodes.
+- **[kaizen-specialist](../knowledge/kaizen-specialist.md)**: AI agent framework implementation.
+- **[mcp-specialist](../knowledge/mcp-specialist.md)**: MCP server implementation.
+
+### Core Implementation
+- **[pattern-expert](../knowledge/pattern-expert.md)**: Workflow patterns, nodes, parameters.
+- **[tdd-implementer](../knowledge/tdd-implementer.md)**: Test-first development.
+- **[gold-standards-validator](../knowledge/gold-standards-validator.md)**: Compliance checking.
+
+### Testing & Validation
+- **[testing-specialist](../knowledge/testing-specialist.md)**: 3-tier strategy with real infrastructure.
+- **[documentation-validator](../knowledge/documentation-validator.md)**: Documentation accuracy.
+
+### Release & Operations
+- **[todo-manager](../knowledge/todo-manager.md)**: Task management and project tracking.
+- **[git-release-specialist](../knowledge/git-release-specialist.md)**: Git workflows, CI validation.
+- **[deployment-specialist](../knowledge/deployment-specialist.md)**: Docker/K8s deployment.
+
+---
+
 ## 🏆 Success Factors
 - **Lessons Learned** 🎓
   1. Documentation Early: Writing guides after implementation is easier
