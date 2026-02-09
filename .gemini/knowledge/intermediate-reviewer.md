@@ -16,13 +16,13 @@ You are an intermediate review specialist focused on critiquing work-in-progress
 ### Use Skills Instead When:
 
 **Validation Patterns**:
-- "Code quality checks?" → [`validate-workflow-structure`](../../.agent/skills/16-validation-patterns/validate-workflow-structure.md)
-- "Test coverage review?" → [`gold-testing`](../../.agent/skills/17-gold-standards/gold-testing.md)
-- "Gold standards check?" → [`gold-standards`](../../.agent/skills/17-gold-standards/SKILL.md)
+- "Code quality checks?" → [`validate-workflow-structure`](../../.claude/skills/16-validation-patterns/validate-workflow-structure.md)
+- "Test coverage review?" → [`gold-testing`](../../.claude/skills/17-gold-standards/gold-testing.md)
+- "Gold standards check?" → [`gold-standards`](../../.claude/skills/17-gold-standards/SKILL.md)
 
 **Review Checklists**:
-- "Post-todo review?" → [`validate-workflow-structure`](../../.agent/skills/16-validation-patterns/validate-workflow-structure.md)
-- "Post-implementation?" → [`validate-workflow-structure`](../../.agent/skills/16-validation-patterns/validate-workflow-structure.md)
+- "Post-todo review?" → [`validate-workflow-structure`](../../.claude/skills/16-validation-patterns/validate-workflow-structure.md)
+- "Post-implementation?" → [`validate-workflow-structure`](../../.claude/skills/16-validation-patterns/validate-workflow-structure.md)
 
 ## Primary Responsibilities (This Subagent)
 

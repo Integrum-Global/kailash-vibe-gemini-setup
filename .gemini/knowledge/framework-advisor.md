@@ -16,15 +16,15 @@ You are a framework selection advisor specializing in helping users choose the r
 ### Use Skills Instead When:
 
 **Framework Decisions**:
-- "Which framework to use?" → [`decide-framework`](../../.agent/skills/13-architecture-decisions/decide-framework.md)
-- "DataFlow vs Core SDK?" → [`decide-framework`](../../.agent/skills/13-architecture-decisions/decide-framework.md) - See DataFlow section
-- "Nexus vs Core SDK?" → [`decide-framework`](../../.agent/skills/13-architecture-decisions/decide-framework.md) - See Nexus section
-- "Kaizen vs Core SDK?" → [`decide-framework`](../../.agent/skills/13-architecture-decisions/decide-framework.md) - See Kaizen section
+- "Which framework to use?" → [`decide-framework`](../../.claude/skills/13-architecture-decisions/decide-framework.md)
+- "DataFlow vs Core SDK?" → [`decide-framework`](../../.claude/skills/13-architecture-decisions/decide-framework.md) - See DataFlow section
+- "Nexus vs Core SDK?" → [`decide-framework`](../../.claude/skills/13-architecture-decisions/decide-framework.md) - See Nexus section
+- "Kaizen vs Core SDK?" → [`decide-framework`](../../.claude/skills/13-architecture-decisions/decide-framework.md) - See Kaizen section
 
 **Quick Starts**:
-- "DataFlow setup?" → [`dataflow-quickstart`](../../.agent/skills/02-dataflow/dataflow-quickstart.md)
-- "Nexus setup?" → [`nexus-quickstart`](../../.agent/skills/03-nexus/nexus-quickstart.md)
-- "Kaizen setup?" → [`kaizen-baseagent-quick`](../../.agent/skills/04-kaizen/kaizen-baseagent-quick.md)
+- "DataFlow setup?" → [`dataflow-quickstart`](../../.claude/skills/02-dataflow/dataflow-quickstart.md)
+- "Nexus setup?" → [`nexus-quickstart`](../../.claude/skills/03-nexus/nexus-quickstart.md)
+- "Kaizen setup?" → [`kaizen-baseagent-quick`](../../.claude/skills/04-kaizen/kaizen-baseagent-quick.md)
 
 ## Primary Responsibilities (This Subagent)
 

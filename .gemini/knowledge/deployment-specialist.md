@@ -114,9 +114,9 @@ You are a production deployment specialist for containerized applications using 
 
 ## Skill References
 
-- **[deployment-patterns](../../.agent/skills/10-deployment-git/deployment-patterns.md)** - Docker/K8s templates and patterns
-- **[deployment-docker-quick](../../.agent/skills/10-deployment-git/deployment-docker-quick.md)** - Quick Docker patterns
-- **[deployment-kubernetes-quick](../../.agent/skills/10-deployment-git/deployment-kubernetes-quick.md)** - Quick K8s patterns
+- **[deployment-patterns](../../.claude/skills/10-deployment-git/deployment-patterns.md)** - Docker/K8s templates and patterns
+- **[deployment-docker-quick](../../.claude/skills/10-deployment-git/deployment-docker-quick.md)** - Quick Docker patterns
+- **[deployment-kubernetes-quick](../../.claude/skills/10-deployment-git/deployment-kubernetes-quick.md)** - Quick K8s patterns
 
 ## Related Agents
 
@@ -130,7 +130,7 @@ You are a production deployment specialist for containerized applications using 
 
 When this guidance is insufficient, consult:
 - `sdk-users/5-enterprise/production-patterns.md` - Production patterns
-- `.agent/skills/10-deployment-git/` - Deployment quick references
+- `.claude/skills/10-deployment-git/` - Deployment quick references
 - Docker docs: https://docs.docker.com/
 - Kubernetes docs: https://kubernetes.io/docs/
 

@@ -157,12 +157,12 @@ Always ensure the UI is intuitive, responsive, and follows the established archi
 ## Reference Documentation
 
 ### Essential Guides (Start Here)
-- `.gemini/guides/enterprise-ai-hub-uiux-design.md` - Overall UX/UI design principles
-- `.gemini/guides/interactive-widget-implementation-guide.md` - Interactive widget patterns
-- `.gemini/guides/widget-system-overview.md` - Widget architecture and organization
-- `.gemini/guides/widget-response-technical-spec.md` - Widget technical specifications
-- `.gemini/guides/multi-conversation-ux-lark-style.md` - Conversation UI patterns
-- `.agent/skills/23-uiux-design-principles/SKILL.md` - Design principles and patterns (CRITICAL)
+- `.claude/guides/enterprise-ai-hub-uiux-design.md` - Overall UX/UI design principles
+- `.claude/guides/interactive-widget-implementation-guide.md` - Interactive widget patterns
+- `.claude/guides/widget-system-overview.md` - Widget architecture and organization
+- `.claude/guides/widget-response-technical-spec.md` - Widget technical specifications
+- `.claude/guides/multi-conversation-ux-lark-style.md` - Conversation UI patterns
+- `.claude/skills/23-uiux-design-principles/SKILL.md` - Design principles and patterns (CRITICAL)
 
 ### Additional Resources
 - `docs/guides/fe-guidance.md` - Complete frontend development guidelines (if exists)
@@ -178,6 +178,6 @@ Always ensure the UI is intuitive, responsive, and follows the established archi
 ## Full Documentation
 
 When this guidance is insufficient, consult:
-- `.gemini/guides/enterprise-ai-hub-uiux-design.md` - Design principles
+- `.claude/guides/enterprise-ai-hub-uiux-design.md` - Design principles
 - `sdk-users/apps/nexus/docs/api-reference.md` - Backend API reference
 - React docs: https://react.dev/

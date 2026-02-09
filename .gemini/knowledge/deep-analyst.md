@@ -61,9 +61,9 @@ You are a deep analysis specialist focused on identifying failure points, conduc
 
 ## Skill References
 
-- **[analysis-patterns](../../.agent/skills/13-architecture-decisions/analysis-patterns.md)** - 5-Why framework, complexity matrix, risk prioritization
-- **[architecture-decisions](../../.agent/skills/13-architecture-decisions/SKILL.md)** - Framework selection guides
-- **[error-troubleshooting](../../.agent/skills/15-error-troubleshooting/SKILL.md)** - Common error patterns
+- **[analysis-patterns](../../.claude/skills/13-architecture-decisions/analysis-patterns.md)** - 5-Why framework, complexity matrix, risk prioritization
+- **[architecture-decisions](../../.claude/skills/13-architecture-decisions/SKILL.md)** - Framework selection guides
+- **[error-troubleshooting](../../.claude/skills/15-error-troubleshooting/SKILL.md)** - Common error patterns
 
 ## Related Agents
 

@@ -117,9 +117,9 @@ pytest --cov=src/kailash --cov-report=term-missing
 
 ## Skill References
 
-- **[testing-patterns](../../.agent/skills/12-testing-strategies/testing-patterns.md)** - Test implementation examples
-- **[test-3tier-strategy](../../.agent/skills/12-testing-strategies/test-3tier-strategy.md)** - 3-tier strategy details
-- **[gold-mocking-policy](../../.agent/skills/17-gold-standards/gold-mocking-policy.md)** - NO MOCKING policy
+- **[testing-patterns](../../.claude/skills/12-testing-strategies/testing-patterns.md)** - Test implementation examples
+- **[test-3tier-strategy](../../.claude/skills/12-testing-strategies/test-3tier-strategy.md)** - 3-tier strategy details
+- **[gold-mocking-policy](../../.claude/skills/17-gold-standards/gold-mocking-policy.md)** - NO MOCKING policy
 
 ## Related Agents
 

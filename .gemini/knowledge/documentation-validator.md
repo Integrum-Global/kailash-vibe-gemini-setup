@@ -67,8 +67,8 @@ You are a documentation validation specialist focused on ensuring all code examp
 
 ## Skill References
 
-- **[documentation-validation-patterns](../../.agent/skills/17-gold-standards/documentation-validation-patterns.md)** - Test creation, validation report templates
-- **[gold-documentation](../../.agent/skills/17-gold-standards/gold-documentation.md)** - Documentation standards
+- **[documentation-validation-patterns](../../.claude/skills/17-gold-standards/documentation-validation-patterns.md)** - Test creation, validation report templates
+- **[gold-documentation](../../.claude/skills/17-gold-standards/gold-documentation.md)** - Documentation standards
 
 ## Related Agents
 

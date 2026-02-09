@@ -108,9 +108,9 @@ You are a React and Next.js frontend specialist for building production-grade ap
 
 ## Skill References
 
-- **[react-patterns](../../.agent/skills/11-frontend-integration/react-patterns.md)** - Implementation patterns and code examples
-- **[react-integration-quick](../../.agent/skills/11-frontend-integration/react-integration-quick.md)** - Quick API setup
-- **[frontend-developer](../../.agent/skills/11-frontend-integration/frontend-developer.md)** - General frontend patterns
+- **[react-patterns](../../.claude/skills/11-frontend-integration/react-patterns.md)** - Implementation patterns and code examples
+- **[react-integration-quick](../../.claude/skills/11-frontend-integration/react-integration-quick.md)** - Quick API setup
+- **[frontend-developer](../../.claude/skills/11-frontend-integration/frontend-developer.md)** - General frontend patterns
 
 ## Related Agents
 
@@ -123,7 +123,7 @@ You are a React and Next.js frontend specialist for building production-grade ap
 ## Full Documentation
 
 When this guidance is insufficient, consult:
-- `.gemini/guides/enterprise-ai-hub-uiux-design.md` - Design principles
+- `.claude/guides/enterprise-ai-hub-uiux-design.md` - Design principles
 - `sdk-users/apps/nexus/docs/api-reference.md` - Backend API reference
 - React docs: https://react.dev/
 - React Flow: https://reactflow.dev/

@@ -119,20 +119,20 @@ add_connection("from_node", "from_output", "to_node", "to_input")
 ## Skill References
 
 ### Basic Patterns
-- **[workflow-quickstart](../../.agent/skills/01-core-sdk/workflow-quickstart.md)** - Basic workflow creation
-- **[node-patterns-common](../../.agent/skills/01-core-sdk/node-patterns-common.md)** - Node usage patterns
-- **[connection-patterns](../../.agent/skills/01-core-sdk/connection-patterns.md)** - Connection syntax
-- **[param-passing-quick](../../.agent/skills/01-core-sdk/param-passing-quick.md)** - Parameter passing
+- **[workflow-quickstart](../../.claude/skills/01-core-sdk/workflow-quickstart.md)** - Basic workflow creation
+- **[node-patterns-common](../../.claude/skills/01-core-sdk/node-patterns-common.md)** - Node usage patterns
+- **[connection-patterns](../../.claude/skills/01-core-sdk/connection-patterns.md)** - Connection syntax
+- **[param-passing-quick](../../.claude/skills/01-core-sdk/param-passing-quick.md)** - Parameter passing
 
 ### Node Selection
-- **[nodes-quick-index](../../.agent/skills/08-nodes-reference/nodes-quick-index.md)** - Quick node lookup
-- **[nodes-data-reference](../../.agent/skills/08-nodes-reference/nodes-data-reference.md)** - Data nodes
-- **[nodes-ai-reference](../../.agent/skills/08-nodes-reference/nodes-ai-reference.md)** - AI nodes
+- **[nodes-quick-index](../../.claude/skills/08-nodes-reference/nodes-quick-index.md)** - Quick node lookup
+- **[nodes-data-reference](../../.claude/skills/08-nodes-reference/nodes-data-reference.md)** - Data nodes
+- **[nodes-ai-reference](../../.claude/skills/08-nodes-reference/nodes-ai-reference.md)** - AI nodes
 
 ### Error Resolution
-- **[error-missing-build](../../.agent/skills/15-error-troubleshooting/error-missing-build.md)** - Missing .build() error
-- **[error-parameter-validation](../../.agent/skills/15-error-troubleshooting/error-parameter-validation.md)** - Parameter errors
-- **[error-connection-params](../../.agent/skills/15-error-troubleshooting/error-connection-params.md)** - Connection errors
+- **[error-missing-build](../../.claude/skills/15-error-troubleshooting/error-missing-build.md)** - Missing .build() error
+- **[error-parameter-validation](../../.claude/skills/15-error-troubleshooting/error-parameter-validation.md)** - Parameter errors
+- **[error-connection-params](../../.claude/skills/15-error-troubleshooting/error-connection-params.md)** - Connection errors
 
 ## Related Agents
 

@@ -101,9 +101,9 @@ git push -u origin hotfix/[issue]
 
 ## Skill References
 
-- **[git-release-patterns](../../.agent/skills/10-deployment-git/git-release-patterns.md)** - Full release patterns
-- **[git-pre-commit](../../.agent/skills/10-deployment-git/git-pre-commit.md)** - Pre-commit details
-- **[git-pr-workflow](../../.agent/skills/10-deployment-git/git-pr-workflow.md)** - PR workflow
+- **[git-release-patterns](../../.claude/skills/10-deployment-git/git-release-patterns.md)** - Full release patterns
+- **[git-pre-commit](../../.claude/skills/10-deployment-git/git-pre-commit.md)** - Pre-commit details
+- **[git-pr-workflow](../../.claude/skills/10-deployment-git/git-pr-workflow.md)** - PR workflow
 
 ## Related Agents
 
@@ -116,7 +116,7 @@ git push -u origin hotfix/[issue]
 
 When this guidance is insufficient, consult:
 - `sdk-contributors/development/workflows/release-checklist.md`
-- `.agent/skills/10-deployment-git/` - Git workflow skills
+- `.claude/skills/10-deployment-git/` - Git workflow skills
 - GitHub Actions docs: https://docs.github.com/en/actions
 
 ---

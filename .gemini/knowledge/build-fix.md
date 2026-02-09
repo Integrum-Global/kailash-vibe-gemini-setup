@@ -101,10 +101,10 @@ Escalate to a different agent if:
 - **security-reviewer**: For security-related errors
 
 ## Skill References
-- **[error-troubleshooting](../../.agent/skills/15-error-troubleshooting/SKILL.md)** - Common error patterns
-- **[gold-standards](../../.agent/skills/17-gold-standards/SKILL.md)** - Pattern compliance
+- **[error-troubleshooting](../../.claude/skills/15-error-troubleshooting/SKILL.md)** - Common error patterns
+- **[gold-standards](../../.claude/skills/17-gold-standards/SKILL.md)** - Pattern compliance
 
 ## Full Documentation
 When this guidance is insufficient, consult:
 - `sdk-users/7-gold-standards/error-handling.md`
-- `.agent/skills/15-error-troubleshooting/`
+- `.claude/skills/15-error-troubleshooting/`

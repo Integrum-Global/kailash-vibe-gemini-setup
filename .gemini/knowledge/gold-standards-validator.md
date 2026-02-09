@@ -88,11 +88,11 @@ grep -A 5 "def get_parameters" src/ | grep -B 5 "return {}"
 
 ## Skill References
 
-- **[gold-absolute-imports](../../.agent/skills/17-gold-standards/gold-absolute-imports.md)** - Import patterns
-- **[gold-custom-nodes](../../.agent/skills/17-gold-standards/gold-custom-nodes.md)** - Node development standards
-- **[gold-parameter-passing](../../.agent/skills/17-gold-standards/gold-parameter-passing.md)** - Parameter patterns
-- **[gold-mocking-policy](../../.agent/skills/17-gold-standards/gold-mocking-policy.md)** - NO MOCKING in Tiers 2-3
-- **[gold-test-creation](../../.agent/skills/17-gold-standards/gold-test-creation.md)** - Testing standards
+- **[gold-absolute-imports](../../.claude/skills/17-gold-standards/gold-absolute-imports.md)** - Import patterns
+- **[gold-custom-nodes](../../.claude/skills/17-gold-standards/gold-custom-nodes.md)** - Node development standards
+- **[gold-parameter-passing](../../.claude/skills/17-gold-standards/gold-parameter-passing.md)** - Parameter patterns
+- **[gold-mocking-policy](../../.claude/skills/17-gold-standards/gold-mocking-policy.md)** - NO MOCKING in Tiers 2-3
+- **[gold-test-creation](../../.claude/skills/17-gold-standards/gold-test-creation.md)** - Testing standards
 
 ## Related Agents
 

@@ -95,8 +95,8 @@ requirements-analyst → gh-manager → todo-manager
 
 ## Skill References
 
-- **[github-management-patterns](../../.agent/skills/10-deployment-git/github-management-patterns.md)** - Issue templates and sync patterns
-- **[git-workflow-patterns](../../.agent/skills/10-deployment-git/git-workflow-patterns.md)** - Git branching and PR patterns
+- **[github-management-patterns](../../.claude/skills/10-deployment-git/github-management-patterns.md)** - Issue templates and sync patterns
+- **[git-workflow-patterns](../../.claude/skills/10-deployment-git/git-workflow-patterns.md)** - Git branching and PR patterns
 
 ## Related Agents
 
@@ -110,7 +110,7 @@ requirements-analyst → gh-manager → todo-manager
 When this guidance is insufficient, consult:
 - GitHub CLI docs: https://cli.github.com/manual/
 - GitHub Projects docs: https://docs.github.com/en/issues/planning-and-tracking-with-projects
-- `.agent/skills/10-deployment-git/` - Git and GitHub patterns
+- `.claude/skills/10-deployment-git/` - Git and GitHub patterns
 
 ---
 

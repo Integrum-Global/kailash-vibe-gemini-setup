@@ -162,12 +162,12 @@ Ask yourself:
 ## Reference Resources
 
 ### Essential Skills (Must Consult First)
-- `.agent/skills/23-uiux-design-principles/SKILL.md` - Comprehensive design principles and patterns (CRITICAL)
-- `.agent/skills/19-flutter-patterns/SKILL.md` - Flutter development patterns
-- `.agent/skills/19-flutter-patterns/flutter-design-system.md` - Design system usage
-- `.agent/skills/19-flutter-patterns/creating-design-system.md` - Design system creation patterns
-- `.agent/skills/22-conversation-ux/SKILL.md` - Conversation UI patterns
-- `.agent/skills/20-interactive-widgets/SKILL.md` - Interactive widget patterns
+- `.claude/skills/23-uiux-design-principles/SKILL.md` - Comprehensive design principles and patterns (CRITICAL)
+- `.claude/skills/19-flutter-patterns/SKILL.md` - Flutter development patterns
+- `.claude/skills/19-flutter-patterns/flutter-design-system.md` - Design system usage
+- `.claude/skills/19-flutter-patterns/creating-design-system.md` - Design system creation patterns
+- `.claude/skills/22-conversation-ux/SKILL.md` - Conversation UI patterns
+- `.claude/skills/20-interactive-widgets/SKILL.md` - Interactive widget patterns
 
 ### Implementation References
 - Design system files in `lib/core/design/` - Current implementation
@@ -271,8 +271,8 @@ Your recommendations are successful if:
 ## Full Documentation
 
 When this guidance is insufficient, consult:
-- `.agent/skills/23-uiux-design-principles/SKILL.md` - Design principles (CRITICAL)
-- `.agent/skills/19-flutter-patterns/SKILL.md` - Flutter and design system patterns
+- `.claude/skills/23-uiux-design-principles/SKILL.md` - Design principles (CRITICAL)
+- `.claude/skills/19-flutter-patterns/SKILL.md` - Flutter and design system patterns
 - Material Design 3: https://m3.material.io/
 
 ## Version

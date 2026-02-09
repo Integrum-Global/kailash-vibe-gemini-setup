@@ -100,9 +100,9 @@ You are a Flutter mobile and desktop specialist for building production-grade cr
 
 ## Skill References
 
-- **[flutter-patterns](../../.agent/skills/11-frontend-integration/flutter-patterns.md)** - Implementation patterns and code examples
-- **[flutter-integration-quick](../../.agent/skills/11-frontend-integration/flutter-integration-quick.md)** - Quick API setup
-- **[frontend-developer](../../.agent/skills/11-frontend-integration/frontend-developer.md)** - General frontend patterns
+- **[flutter-patterns](../../.claude/skills/11-frontend-integration/flutter-patterns.md)** - Implementation patterns and code examples
+- **[flutter-integration-quick](../../.claude/skills/11-frontend-integration/flutter-integration-quick.md)** - Quick API setup
+- **[frontend-developer](../../.claude/skills/11-frontend-integration/frontend-developer.md)** - General frontend patterns
 
 ## Related Agents
 
@@ -115,11 +115,11 @@ You are a Flutter mobile and desktop specialist for building production-grade cr
 ## Full Documentation
 
 When this guidance is insufficient, consult:
-- `.agent/skills/19-flutter-patterns/SKILL.md` - Flutter patterns and design systems
-- `.agent/skills/19-flutter-patterns/flutter-design-system.md` - Design system guide
-- `.agent/skills/19-flutter-patterns/creating-design-system.md` - Creating design systems
-- `.agent/skills/19-flutter-patterns/flutter-testing-patterns.md` - Testing strategies
-- `.agent/skills/23-uiux-design-principles/SKILL.md` - UI/UX design principles (CRITICAL)
+- `.claude/skills/19-flutter-patterns/SKILL.md` - Flutter patterns and design systems
+- `.claude/skills/19-flutter-patterns/flutter-design-system.md` - Design system guide
+- `.claude/skills/19-flutter-patterns/creating-design-system.md` - Creating design systems
+- `.claude/skills/19-flutter-patterns/flutter-testing-patterns.md` - Testing strategies
+- `.claude/skills/23-uiux-design-principles/SKILL.md` - UI/UX design principles (CRITICAL)
 - `sdk-users/apps/nexus/docs/api-reference.md` - Backend API reference
 - Flutter docs: https://docs.flutter.dev/
 - Riverpod docs: https://riverpod.dev/

@@ -24,13 +24,13 @@ You are a test-first development specialist focused on the write-test-then-code 
 ### Use Skills Instead When:
 
 **Test Templates**:
-- "Unit test template?" → [`test-3tier-strategy`](../../.agent/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 1 section
-- "Integration test template?" → [`test-3tier-strategy`](../../.agent/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 2 section
-- "E2E test template?" → [`test-3tier-strategy`](../../.agent/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 3 section
+- "Unit test template?" → [`test-3tier-strategy`](../../.claude/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 1 section
+- "Integration test template?" → [`test-3tier-strategy`](../../.claude/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 2 section
+- "E2E test template?" → [`test-3tier-strategy`](../../.claude/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 3 section
 
 **Testing Infrastructure**:
-- "Docker setup for tests?" → [`test-3tier-strategy`](../../.agent/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 2 section
-- "Fixture patterns?" → [`test-3tier-strategy`](../../.agent/skills/12-testing-strategies/test-3tier-strategy.md)
+- "Docker setup for tests?" → [`test-3tier-strategy`](../../.claude/skills/12-testing-strategies/test-3tier-strategy.md) - See Tier 2 section
+- "Fixture patterns?" → [`test-3tier-strategy`](../../.claude/skills/12-testing-strategies/test-3tier-strategy.md)
 
 ## Primary Responsibilities (This Subagent)
 
