@@ -206,7 +206,7 @@ Use `pattern-expert` subagent when:
 ## Documentation References
 
 ### Primary Sources
-- **Pattern Expert**: [`.gemini/knowledge/pattern-expert.md` (lines 294-338)](../../../../.gemini/knowledge/pattern-expert.md#L294-L338)
+- **Pattern Expert**: [`.claude/agents/pattern-expert.md` (lines 294-338)](../../../../.claude/agents/pattern-expert.md#L294-L338)
 - **Common Mistakes**: [`sdk-users/2-core-concepts/validation/common-mistakes.md` (lines 200-213)](../../../../sdk-users/2-core-concepts/validation/common-mistakes.md#L200-L213)
 - **Connection Cheatsheet**: [`sdk-users/2-core-concepts/cheatsheet/005-connection-patterns.md`](../../../../sdk-users/2-core-concepts/cheatsheet/005-connection-patterns.md)
 

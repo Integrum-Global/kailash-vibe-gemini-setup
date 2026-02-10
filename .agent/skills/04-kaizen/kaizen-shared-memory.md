@@ -24,5 +24,5 @@ insights = shared_pool.read_relevant(
 ```
 
 ## References
-- **Specialist**: `.gemini/knowledge/frameworks/kaizen-specialist.md` lines 94-113
+- **Specialist**: `.claude/agents/frameworks/kaizen-specialist.md` lines 94-113
 - **UX Helpers**: `kaizen-ux-helpers.md`

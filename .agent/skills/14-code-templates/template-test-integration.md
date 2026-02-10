@@ -191,7 +191,7 @@ Use `tdd-implementer` when:
 ## Documentation References
 
 ### Primary Sources
-- **Testing Specialist**: [`.gemini/knowledge/testing-specialist.md` (lines 178-209)](../../../../.gemini/knowledge/testing-specialist.md#L178-L209)
+- **Testing Specialist**: [`.claude/agents/testing-specialist.md` (lines 178-209)](../../../../.claude/agents/testing-specialist.md#L178-L209)
 - **Test Organization**: [`sdk-users/3-development/testing/test-organization-policy.md`](../../../../sdk-users/3-development/testing/test-organization-policy.md)
 - **NO MOCKING**: [`sdk-users/7-gold-standards/mock-directives-for-testing.md`](../../../../sdk-users/7-gold-standards/mock-directives-for-testing.md)
 

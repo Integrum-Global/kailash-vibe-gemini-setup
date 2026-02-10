@@ -449,4 +449,4 @@ def process_with_validation(self, data: str) -> dict:
 
 - **Source**: `apps/kailash-kaizen/src/kaizen/core/base_agent.py`
 - **Strategy**: `apps/kailash-kaizen/src/kaizen/strategies/async_single_shot.py`
-- **Specialist**: `.gemini/knowledge/frameworks/kaizen-specialist.md` lines 49-93
+- **Specialist**: `.claude/agents/frameworks/kaizen-specialist.md` lines 49-93

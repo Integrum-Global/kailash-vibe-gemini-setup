@@ -532,4 +532,4 @@ def test_config_auto_extraction():
 
 - **Source**: `apps/kailash-kaizen/src/kaizen/core/config.py`
 - **Examples**: All agents in `apps/kailash-kaizen/examples/`
-- **Specialist**: `.gemini/knowledge/frameworks/kaizen-specialist.md` lines 249-267
+- **Specialist**: `.claude/agents/frameworks/kaizen-specialist.md` lines 249-267

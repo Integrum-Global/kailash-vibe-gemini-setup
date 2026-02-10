@@ -72,7 +72,7 @@ workflow.add_node("OrderListNode", "list", {
 - **Enterprise Multi-Tenant**: [`sdk-users/apps/dataflow/docs/enterprise/multi-tenant.md`](../../../../sdk-users/apps/dataflow/docs/enterprise/multi-tenant.md)
 
 ### Specialist Reference
-- **DataFlow Specialist**: [`.gemini/skills/dataflow-specialist.md`](../../dataflow-specialist.md#L296-L303)
+- **DataFlow Specialist**: [`.claude/skills/dataflow-specialist.md`](../../dataflow-specialist.md#L296-L303)
 
 ## Quick Tips
 

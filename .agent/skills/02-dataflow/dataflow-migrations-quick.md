@@ -13,13 +13,17 @@ Automatic schema migrations with safety controls for development and production.
 > Related Skills: [`dataflow-models`](#), [`dataflow-existing-database`](#)
 > Related Subagents: `dataflow-specialist` (complex migrations, production safety)
 
+> **DataFlow v0.11.0 Update**: `auto_migrate=True` now works correctly in Docker/FastAPI environments using `SyncDDLExecutor` (psycopg2/sqlite3 for synchronous DDL). The previous workaround of using `auto_migrate=False` + `create_tables_async()` is **OBSOLETE**.
+>
+> The deprecated parameters (`existing_schema_mode`, `enable_model_persistence`, `skip_registry`, `skip_migration`) have been removed. Use `auto_migrate=True` (default) for automatic schema management, or `auto_migrate=False` to skip schema modifications.
+
 ## Quick Reference
 
-- **Development (CLI/scripts)**: `auto_migrate=True` (default) - safe, preserves data
-- **Docker/FastAPI**: `auto_migrate=False` + `create_tables_async()` in lifespan - **REQUIRED**
-- **Production**: `auto_migrate=False` + manual migrations
-- **Enterprise**: Full migration system with risk assessment
-- **Safety**: auto_migrate ALWAYS preserves existing data (but fails in Docker/FastAPI async contexts)
+- **Development**: `auto_migrate=True` (default) - safe, preserves data
+- **Docker/FastAPI**: `auto_migrate=True` - works correctly as of v0.10.15+
+- **Production**: `auto_migrate=True` - same pattern for all environments
+- **Enterprise**: Full migration system with risk assessment for complex operations
+- **Safety**: auto_migrate ALWAYS preserves existing data, adds new columns safely
 
 ## Core Pattern
 
@@ -67,15 +71,16 @@ class Product:
 
 **Safety**: Verified - no data loss on repeat runs
 
-### Production Mode (auto_migrate=False)
+### Production Mode (v0.10.15+)
 
 ```python
+# Same configuration works for all environments
 db = DataFlow(
-    auto_migrate=False,          # Manual control
-    existing_schema_mode=True    # Maximum safety
+    database_url="postgresql://...",
+    auto_migrate=True  # Safe - preserves data, adds columns automatically
 )
 
-# Schema changes require manual migration
+# For complex migrations (type changes, renames), use Enterprise Mode
 ```
 
 ### Enterprise Mode
@@ -154,24 +159,27 @@ class User:
     status: str = "active"  # Default for existing rows
 ```
 
-### Mistake 2: Production with auto_migrate=True
+### Mistake 2: Using Obsolete Workaround Pattern
 
 ```python
-# RISKY - Auto-migrations in production
+# OBSOLETE - This workaround was needed before v0.10.15
+# Now auto_migrate=True works in Docker/FastAPI!
 db_prod = DataFlow(
     database_url="postgresql://prod/db",
-    auto_migrate=True  # Don't use in production!
+    auto_migrate=False,  # No longer needed!
 )
+# ... then manually calling create_tables_async() in FastAPI lifespan
 ```
 
-**Fix: Disable for Production**
+**Fix: Use Simple Configuration (v0.10.15)**
 
 ```python
+# CORRECT - auto_migrate=True now works in Docker/FastAPI
 db_prod = DataFlow(
     database_url="postgresql://prod/db",
-    auto_migrate=False,
-    existing_schema_mode=True
+    auto_migrate=True  # Default - safe: preserves data, adds new columns only
 )
+# SyncDDLExecutor handles table creation synchronously (no event loop issues)
 ```
 
 ## Related Patterns
@@ -182,22 +190,24 @@ db_prod = DataFlow(
 ## Documentation References
 
 ### Primary Sources
+
 - **NOT NULL Handler**: [`sdk-users/apps/dataflow/docs/development/not-null-column-addition.md`](../../../../sdk-users/apps/dataflow/docs/development/not-null-column-addition.md)
 - **Column Removal**: [`sdk-users/apps/dataflow/docs/development/column-removal-system.md`](../../../../sdk-users/apps/dataflow/docs/development/column-removal-system.md)
 - **Auto Migration**: [`sdk-users/apps/dataflow/docs/workflows/auto-migration.md`](../../../../sdk-users/apps/dataflow/docs/workflows/auto-migration.md)
 
 ### Related Documentation
+
 - **DataFlow CLAUDE**: [`sdk-users/apps/dataflow/CLAUDE.md`](../../../../sdk-users/apps/dataflow/CLAUDE.md#L316-L360)
 - **Migration Orchestration**: [`sdk-users/apps/dataflow/docs/workflows/migration-orchestration-engine.md`](../../../../sdk-users/apps/dataflow/docs/workflows/migration-orchestration-engine.md)
 
 ## Quick Tips
 
-- auto_migrate=True safe for development CLI/scripts (preserves data)
-- **⚠️ Docker/FastAPI**: Use `auto_migrate=False` + `create_tables_async()` in lifespan
+- `auto_migrate=True` is safe for ALL environments (v0.10.15+)
+- Works correctly in Docker/FastAPI via `SyncDDLExecutor`
 - Always provide defaults for NOT NULL columns
-- Use existing_schema_mode=True for production
-- Enterprise system available for complex migrations
+- Enterprise migration system for complex operations (type changes, renames)
 - Test migrations on staging before production
+- No more need for `create_tables_async()` workaround
 
 ## Keywords for Auto-Trigger
 

@@ -171,5 +171,5 @@ When adding new skills:
 
 ## Related Documentation
 - **Source**: `/sdk-users/2-core-concepts/cheatsheet/`
-- **Skills Directory**: `.gemini/skills/3-patterns/cheatsheets/`
+- **Skills Directory**: `.claude/skills/3-patterns/cheatsheets/`
 - **Taxonomy**: See skills taxonomy document for complete skill hierarchy

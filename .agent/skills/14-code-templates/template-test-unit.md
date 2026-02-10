@@ -210,7 +210,7 @@ Use `tdd-implementer` when:
 ## Documentation References
 
 ### Primary Sources
-- **Testing Specialist**: [`.gemini/knowledge/testing-specialist.md` (lines 146-176)](../../../../.gemini/knowledge/testing-specialist.md#L146-L176)
+- **Testing Specialist**: [`.claude/agents/testing-specialist.md` (lines 146-176)](../../../../.claude/agents/testing-specialist.md#L146-L176)
 - **Test Organization**: [`sdk-users/3-development/testing/test-organization-policy.md`](../../../../sdk-users/3-development/testing/test-organization-policy.md)
 - **Production Testing**: [`sdk-users/3-development/12-testing-production-quality.md`](../../../../sdk-users/3-development/12-testing-production-quality.md)
 

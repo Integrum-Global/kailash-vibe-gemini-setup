@@ -589,7 +589,7 @@ Use `dataflow-specialist` subagent when:
 - **Workflow Nodes**: [`sdk-users/apps/dataflow/docs/workflows/nodes.md`](../../../../sdk-users/apps/dataflow/docs/workflows/nodes.md)
 
 ### Specialist Reference
-- **DataFlow Specialist**: [`.gemini/skills/dataflow-specialist.md`](../../dataflow-specialist.md#L211-L224)
+- **DataFlow Specialist**: [`.claude/skills/dataflow-specialist.md`](../../dataflow-specialist.md#L211-L224)
 
 ## Examples
 

@@ -1512,5 +1512,5 @@ A **unified Agent API** that makes Kaizen the **simplest AI agent framework** wh
 - `/Users/esperie/repos/dev/kailash_kaizen/apps/kailash-kaizen/src/kaizen/strategies/__init__.py`
 - `/Users/esperie/repos/dev/kailash_kaizen/apps/kailash-kaizen/src/kaizen/tools/__init__.py`
 - `/Users/esperie/repos/dev/kailash_kaizen/apps/kailash-kaizen/src/kaizen/memory/__init__.py`
-- `/Users/esperie/repos/dev/kailash_kaizen/.gemini/skills/04-kaizen/README.md`
-- All 30+ skill files in `.gemini/skills/04-kaizen/`
+- `/Users/esperie/repos/dev/kailash_kaizen/.claude/skills/04-kaizen/README.md`
+- All 30+ skill files in `.claude/skills/04-kaizen/`

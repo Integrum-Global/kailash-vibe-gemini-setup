@@ -170,7 +170,7 @@ Use `dataflow-specialist` subagent when:
 ## Documentation References
 
 ### Primary Sources
-- **DataFlow Specialist**: [`.gemini/knowledge/frameworks/dataflow-specialist.md` (lines 30-33)](../../../../.gemini/knowledge/frameworks/dataflow-specialist.md#L30-L33)
+- **DataFlow Specialist**: [`.claude/agents/frameworks/dataflow-specialist.md` (lines 30-33)](../../../../.claude/agents/frameworks/dataflow-specialist.md#L30-L33)
 - **Template Syntax**: [`sdk-users/apps/dataflow/CLAUDE.md` (search for "template")](../../../../sdk-users/apps/dataflow/CLAUDE.md)
 
 ### Related Documentation

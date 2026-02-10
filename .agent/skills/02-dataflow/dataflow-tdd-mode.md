@@ -134,7 +134,7 @@ def db():
 - **Performance Guide**: [`sdk-users/apps/dataflow/docs/tdd/performance-guide.md`](../../../../sdk-users/apps/dataflow/docs/tdd/performance-guide.md)
 
 ### Related Documentation
-- **DataFlow Specialist**: [`.gemini/skills/dataflow-specialist.md`](../../dataflow-specialist.md#L893-L940)
+- **DataFlow Specialist**: [`.claude/skills/dataflow-specialist.md`](../../dataflow-specialist.md#L893-L940)
 - **Test Strategy**: [`test-3tier-strategy`](#)
 
 ## Quick Tips

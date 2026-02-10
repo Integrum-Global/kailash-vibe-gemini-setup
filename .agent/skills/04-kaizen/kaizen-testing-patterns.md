@@ -92,4 +92,4 @@ def test_qa_agent(simple_qa_example, assert_async_strategy, test_queries):
 
 ## References
 - **Source**: `apps/kailash-kaizen/tests/conftest.py`
-- **Specialist**: `.gemini/knowledge/frameworks/kaizen-specialist.md` lines 382-404
+- **Specialist**: `.claude/agents/frameworks/kaizen-specialist.md` lines 382-404

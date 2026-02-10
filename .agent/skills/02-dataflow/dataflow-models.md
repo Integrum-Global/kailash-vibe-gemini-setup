@@ -228,7 +228,7 @@ Use `dataflow-specialist` subagent when:
 - **Relationships**: [`sdk-users/apps/dataflow/docs/development/relationships.md`](../../../../sdk-users/apps/dataflow/docs/development/relationships.md)
 
 ### Specialist Reference
-- **DataFlow Specialist**: [`.gemini/skills/dataflow-specialist.md`](../../dataflow-specialist.md)
+- **DataFlow Specialist**: [`.claude/skills/dataflow-specialist.md`](../../dataflow-specialist.md)
 
 ## Examples
 

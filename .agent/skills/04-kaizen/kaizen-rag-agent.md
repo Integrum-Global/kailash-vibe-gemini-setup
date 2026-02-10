@@ -28,5 +28,5 @@ class RAGAgent(BaseAgent):
 ```
 
 ## References
-- **Specialist**: `.gemini/knowledge/frameworks/kaizen-specialist.md` lines 229-247
+- **Specialist**: `.claude/agents/frameworks/kaizen-specialist.md` lines 229-247
 - **Examples**: `apps/kailash-kaizen/examples/4-advanced-rag/`

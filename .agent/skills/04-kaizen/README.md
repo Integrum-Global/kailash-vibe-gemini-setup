@@ -148,7 +148,7 @@ Production patterns, enterprise features, tool calling, observability, memory sy
 - **[Troubleshooting](../../../sdk-users/apps/kaizen/docs/reference/troubleshooting.md)** - Common issues
 
 ### Quick References
-- **Specialist Agent**: `.gemini/knowledge/frameworks/kaizen-specialist.md` (comprehensive reference table)
+- **Specialist Agent**: `.claude/agents/frameworks/kaizen-specialist.md` (comprehensive reference table)
 - **README**: `sdk-users/apps/kaizen/README.md`
 - **CLAUDE.md**: `sdk-users/apps/kaizen/CLAUDE.md` (quick start)
 - **Examples**: `apps/kailash-kaizen/examples/` (35+ working examples)

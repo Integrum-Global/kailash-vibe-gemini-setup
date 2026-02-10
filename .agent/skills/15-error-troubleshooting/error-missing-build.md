@@ -161,7 +161,7 @@ Use `pattern-expert` subagent when:
 
 ### Primary Sources
 - **Common Mistakes**: [`sdk-users/2-core-concepts/validation/common-mistakes.md` (lines 136-151)](../../../../sdk-users/2-core-concepts/validation/common-mistakes.md#L136-L151)
-- **Pattern Expert**: [`.gemini/knowledge/pattern-expert.md` (lines 257-264)](../../../agents/pattern-expert.md#L257-L264)
+- **Pattern Expert**: [`.claude/agents/pattern-expert.md` (lines 257-264)](../../../agents/pattern-expert.md#L257-L264)
 - **Essential Pattern**: [`CLAUDE.md` (lines 139-141)](../../../../CLAUDE.md#L139-L141)
 
 ### Related Documentation
